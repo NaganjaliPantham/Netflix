@@ -10,7 +10,7 @@ body{
 }
 nav .logo img{
     object-fit: contain;
-    max-width: 10%; 
+    max-width: 20%; 
 }
 nav{
     display: flex;
@@ -33,7 +33,7 @@ nav .actions .cls{
     width: 210px;
 }
 nav .actions .joinnow{
-    background-color: rgb(206, 9, 9);
+    background-color: #e50914;
     color: #fff;
     font-size: 14px;
     font-weight: 600;
