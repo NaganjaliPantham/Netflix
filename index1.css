@@ -4,13 +4,16 @@
     box-sizing:border-box ;
 }
 body{
-    background-color: #222;
+    background-color: #181818;
     color:#fff;
     font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif ;
 }
 nav .logo img{
     object-fit: contain;
-    max-width: 20%; 
+    max-width: 14%;
+    margin-top: 5px; 
+    margin-left: 20px;
+    padding-left: 5px;
 }
 nav{
     display: flex;
@@ -60,4 +63,97 @@ nav .actions .signin{
 nav .actions .signin:hover{
     background-color: #fff;
     color: #111;
+}
+.outline{
+    margin:0px 25px;
+    padding:0px 10px;
+}
+.outline p{
+    max-width: 48%;
+    padding:10px 15px;
+    font-size: 19px;
+}
+section .only{
+    padding-top: 110px;
+    font-size: 45px;
+    font-weight: 1000;
+}
+.user{
+    font-size:1rem;
+    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: drop-shadow(10px 10px 10px rgba(217, 237, 5, 0.914));
+    color: yellow;
+}
+.banner{
+    background-image:url("https://occ-0-3215-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSzRQqMaM5IXcrgrT64Qtp3AZmvJU3mEwpA3Kiegs_qP3hMdpLLRnSZ9mVlvg8R9nO4SikNpRCvjI1gv1dsY2U7PJ75G0-WjI3Kv.jpg?r=a5a%22)%22");
+    background-size:cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin:1% 0.5%;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    margin:0% 0.5%;
+    border-radius: 0.4%;
+}
+h1{
+    font-size:30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:12px 0px 0px 12px;
+}
+h3{
+    text-align: center;
+    font-weight: 400px;
+    font-size: 15px;
+    padding: 1% 0%;
+}
+footer{
+    padding: 50px 4% 10px ;
+    color: #666;
+}
+footer h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 50px 0;
+    color: #666;
+}
+footer .row{
+    display: flex;
+    align-items: start;
+    padding: 10px 0px;
+}
+footer .row .col{
+    margin: 10px 50px;
+}
+footer .row .col a{
+    text-decoration: none;
+    color: #666;
+    font-size: 0.8rem;
+    padding: 8px;
+    display: block;
+}
+footer button{
+    margin: 0 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 0;
+    width: 100px;
+}
+footer button i{
+    border: none;
+}
+footer button select{
+    border: none;
 }
