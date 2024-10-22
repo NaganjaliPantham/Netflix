@@ -1,0 +1,148 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box ;
+}
+body{
+    background-color: #181818;
+    color:#fff;
+    font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif ;
+}
+nav .logo img{
+    object-fit: contain;
+    max-width: 14%;
+    margin-top: 5px; 
+    margin-left: 20px;
+    padding-left: 5px;
+}
+nav{
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #111; 
+    height: 60px;
+}
+nav .actions{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    font-weight: 600;
+}
+nav .actions .cls{
+    display: block;
+    unicode-bidi: isolate;
+    width: 210px;
+}
+nav .actions .joinnow{
+    background-color: #e50914;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 9px 16px ;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 0 8px;
+    width:130px ;
+}
+nav .actions .joinnow:hover{
+    background-color: #fff;
+    color: #958383;
+    transition: 0.8ms;
+}
+nav .actions .signin{
+    background-color: transparent;
+    color: #fff;
+    padding: 9px 16px ;
+    border: 0.5px solid #fff;
+    border-radius: 1px;
+    width: 130px;
+}
+nav .actions .signin:hover{
+    background-color: #fff;
+    color: #111;
+}
+.banner{
+    background:linear-gradient(90deg, #181818 10%, hsla(0, 0%, 9%, .98) 20%, hsla(0, 0%, 9%, .97) 25%, hsla(0, 0%, 9%, .95) 35%, hsla(0, 0%, 9%, .94) 40%, hsla(0, 0%, 9%, .92) 45%, hsla(0, 0%, 9%, .9) 50%, hsla(0, 0%, 9%, .87) 55%, hsla(0, 0%, 9%, .82) 60%, hsla(0, 0%, 9%, .75) 65%, hsla(0, 0%, 9%, .63) 70%, hsla(0, 0%, 9%, .45) 75%, hsla(0, 0%, 9%, .27) 80%, hsla(0, 0%, 9%, .15) 85%, hsla(0, 0%, 9%, .08) 90%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0)),url("https://occ-0-4857-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSBqs7OM7SCAfGPt7yqTAdN2_btnIUsE_T1zrFHCBaK_tGpjSNYa1mGsELqnO0Yf2BCUtcXZKqqWQOKVjUnugX66wm3LxyQcnPjC.jpg?r=180");
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    max-width:100% ;
+    height: 800px;
+}
+.bannercontent .bannertitle img{
+    object-fit: contain;
+    max-width: 40%;
+
+}
+.bannercontent{
+    padding: 12% 5%;
+}
+.bannercontent .bannertitle h1{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+
+.bannercontent .bannertitle h3{
+    color: #a3a3a3;
+    font-size: 16px;
+    padding: 10px 0px;
+}
+.bannercontent .bannertitle span{
+    padding: 0px 5px;
+
+}
+.bannercontent .bannertitle .box{
+    padding: 5px 10px;
+    border:2px solid #a1a1a1 ;
+}
+.bannercontent .bannertitle p{
+    max-width: 40%;
+    padding:10px 0px;
+}
+.bannercontent .bannertitle .user{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+footer{
+    padding: 50px 4% 10px ;
+    color: #666;
+}
+footer h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 50px 0;
+    color: #666;
+}
+footer .row{
+    display: flex;
+    align-items: start;
+    padding: 10px 0px;
+}
+footer .row .col{
+    margin: 10px 50px;
+}
+footer .row .col a{
+    text-decoration: none;
+    color: #666;
+    font-size: 0.8rem;
+    padding: 8px;
+    display: block;
+}
+footer button{
+    margin: 0 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 0;
+    width: 100px;
+}
+footer button i{
+    border: none;
+}
+footer button select{
+    border: none;
+}
